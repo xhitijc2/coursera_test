@@ -1,0 +1,236 @@
+
+	h1{
+		color:black;
+		text-align: center;
+		padding: 15px;
+		font-family:helvetica;
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+	/*FOR DESKTOP*/
+	@media (min-width: 992px){
+	
+		.mainbox-franky,.mainbox-pizza,.mainbox-pasta{
+			width: 33.33%;
+			float: left; 
+		}
+
+	#maindiv{
+
+		background-color: cyan;
+		/*overflow: scroll;*/
+	}
+
+	#pastabox, #pizzabox, #frankybox{
+		float:left;
+		background-color: #aaaaaa;
+		/*float: left;*/
+		border: 2px solid black;
+		/*width: 32.3%;*/
+		margin: 4px;
+		
+		height: 200px;
+	}
+
+	#pastaname, #pizzaname, #frankyname{
+		/*text-align: right;*/
+		padding: 10px;
+		padding-right: 50px;
+		padding-left: 50px;
+		/*padding-top: 10px;*/
+		position: relative;
+		/*left:5px;*/
+		float: right;
+		font-family: Helvetica;
+		border-bottom: 2px solid black;
+		border-left:2px solid black;
+	}
+	#pastaname{
+		background-color: pink;
+	}
+	
+	#pizzaname{
+		background-color:red;
+	}
+
+	#frankyname{
+		background-color: yellow;
+	}
+	
+
+
+	#pastarecipe, #pizzarecipe, #frankyrecipe{
+		clear:right;
+		position: relative;
+		left: 10px;
+		width: 97%;
+		float: left;
+
+	}
+}
+	
+	/*FOR MOBILE */
+	@media(max-width:767px){
+		
+
+	#maindiv {
+
+		background-color: cyan;
+		/*overflow: scroll;*/
+	}
+
+	#pastabox{
+		float:left;
+		background-color: #aaaaaa;
+		margin-right:10px;
+		margin-bottom: 10px;
+		border: 2px solid black;
+		width: 100%;
+		/*overflow: hidden;*/
+		/*clear: both;*/
+		height: 120%;
+	}
+
+	#pizzabox{
+		float:left;
+		background-color: #aaaaaa;
+		margin-right:10px;
+		
+		border: 2px solid black;
+		width: 100%;
+		/*overflow: hidden;*/
+		/*clear: both;*/
+		margin-bottom: 10px;
+		height: 120%;
+	}
+
+	#frankybox{
+		float:left;
+		background-color: #aaaaaa;
+		margin-right:10px;
+		margin-bottom: 10px;
+		border: 2px solid black;
+		width: 100%;
+		/*overflow: hidden;*/
+		/*clear: both;*/
+		height: 190%;
+	}
+
+	#pastaname, #pizzaname, #frankyname{
+		/*text-align: right;*/
+		padding: 10px;
+		padding-right: 50px;
+		padding-left: 50px;
+		/*padding-top: 10px;*/
+		position: relative;
+		/*left:5px;*/
+		float: right;
+		font-family: Helvetica;
+		border-bottom: 2px solid black;
+		border-left:2px solid black;
+	}
+	#pastaname{
+		background-color: pink;
+	}
+	
+	#pizzaname{
+		background-color:red;
+	}
+
+	#frankyname{
+		background-color: yellow;
+	}
+	
+
+
+	#pastarecipe, #pizzarecipe, #frankyrecipe{
+		clear:right;
+		position: relative;
+		left: 10px;
+		width: 97%;
+		float: left;
+
+	}
+
+	}
+	/*FOR TABLET*/
+
+	@media (min-width: 768px) and (max-width: 991px){
+
+		.mainbox-pasta,.mainbox-pizza{
+			width: 50%;
+			float: left; 
+		}
+
+		
+
+	#pastabox, #pizzabox{
+		float:left;
+		background-color: #aaaaaa;
+		/*margin-right:10px;*/
+		margin-bottom: 10px;
+		border: 2px solid black;
+		/*width: 48%;*/
+		/*overflow: hidden;*/
+		/*clear: both;*/
+		/*height: 100%;*/
+	}
+	#pastabox{
+		/*height: 120%;*/
+		/*padding-bottom: 4.2%;*/
+		margin-right: 2%;
+	}
+
+
+	#frankybox{
+		float:left;
+		background-color: #aaaaaa;
+		margin-right:10px;
+		margin-bottom: 10px;
+		border: 2px solid black;
+		width: 100%;
+		/*overflow: hidden;*/
+		/*clear: both;*/
+		/*height: 190%;*/
+	}
+
+	#pastaname, #pizzaname, #frankyname{
+		/*text-align: right;*/
+		padding: 10px;
+		padding-right: 50px;
+		padding-left: 50px;
+		/*padding-top: 10px;*/
+		position: relative;
+		/*left:5px;*/
+		float: right;
+		font-family: Helvetica;
+		border-bottom: 2px solid black;
+		border-left:2px solid black;
+	}
+	#pastaname{
+		background-color: pink;
+	}
+	
+	#pizzaname{
+		background-color:red;
+	}
+
+	#frankyname{
+		background-color: yellow;
+	}
+	
+
+
+	#pastarecipe, #pizzarecipe, #frankyrecipe{
+		clear:right;
+		position: relative;
+		left: 10px;
+		width: 97%;
+		float: left;
+
+	}
+
+	}
+
